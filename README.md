@@ -375,8 +375,8 @@ git shortlog -se \
   > AUTHORS
  
 ## Authors
-Brainstorma - [Github](https://github.com/brainstorma)
-Anabi Ansah - [Github](https://github.com/brainstorma)
+ Brainstorma - [Github](https://github.com/brainstorma)
+ Anabi Ansah - [Github](https://github.com/brainstorma)
  
 ### Examples
 
