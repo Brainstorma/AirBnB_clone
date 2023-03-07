@@ -1,12 +1,40 @@
-# AirBnB Clone - The Console
+# 0x00. AirBnB clone - The console
 
-This project is a simple version of Airbnb for educational purposes. It consists of a command interpreter that allows you to manipulate data without a graphical interface, such as creating, updating and deleting objects.
+This project is part of the AirBnB clone series that aims to create a replica of the AirBnB platform. In this project, we have created a command-line interface that allows users to interact with the AirBnB clone application through the command line.
 
-## Command Interpreter
+The command-line interface (CLI) for the AirBnB clone application is implemented in Python and provides a way for users to interact with the application using simple commands. The CLI allows users to create, update, delete, and retrieve data from the application's database. The data can be accessed and manipulated using the command-line interface, which provides a convenient way to interact with the application.
 
-The command interpreter is a program that allows you to execute commands in a shell-like environment. It supports basic commands such as `help`, `quit`, `EOF`, etc. as well as some custom commands that are specific to this project.
+## Description of the command interpreter
 
-### How to start it
+The command interpreter is a command-line interface that allows users to interact with the AirBnB clone application. The command interpreter supports the following commands:
+
+| Command | Description |
+| --- | --- |
+| help | Displays the list of available commands |
+| quit | Exits the console |
+| create | Creates a new instance of a class |
+| show | Displays the details of an instance of a class |
+| destroy | Deletes an instance of a class |
+| all | Displays all instances of a class |
+| update | Updates an instance of a class with new attributes |
+
+The command interpreter supports the following classes:
+
+| Class | Description |
+| --- | --- |
+| BaseModel | The base class for all classes in the AirBnB clone application |
+| User | Represents a user in the AirBnB clone application |
+| State | Represents a state in the AirBnB clone application |
+| City | Represents a city in the AirBnB clone application |
+| Amenity | Represents an amenity in the AirBnB clone application |
+| Place | Represents a place in the AirBnB clone application |
+| Review | Represents a review in the AirBnB clone application |
+
+## How to start it
+
+To start the command-line interface for the AirBnB clone application, follow these steps:
+
+1. Clone the repository to your local machine:
 
 To start the command interpreter, you need to clone this repository and run the file `console.py` with Python 3. You can run it in two modes:
 
